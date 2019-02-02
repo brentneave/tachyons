@@ -164,3 +164,28 @@
   .w-two-thirds-xl { width: calc(100% / 1.5); }
   .w-auto-xl { width: auto; }
 }
+
+@media (--breakpoint-extra-extra-large) {
+  .w1-xxl { width: 1rem; }
+  .w2-xxl { width: 2rem; }
+  .w3-xxl { width: 4rem; }
+  .w4-xxl { width: 8rem; }
+  .w5-xxl { width: 16rem; }
+  .w-10-xxl { width: 10%; }
+  .w-20-xxl { width: 20%; }
+  .w-25-xxl { width: 25%; }
+  .w-30-xxl { width: 30%; }
+  .w-33-xxl { width: 33%; }
+  .w-34-xxl { width: 34%; }
+  .w-40-xxl { width: 40%; }
+  .w-50-xxl { width: 50%; }
+  .w-60-xxl { width: 60%; }
+  .w-70-xxl { width: 70%; }
+  .w-75-xxl { width: 75%; }
+  .w-80-xxl { width: 80%; }
+  .w-90-xxl { width: 90%; }
+  .w-100-xxl { width: 100%; }
+  .w-third-xxl { width: calc(100% / 3); }
+  .w-two-thirds-xxl { width: calc(100% / 1.5); }
+  .w-auto-xxl { width: auto; }
+}
