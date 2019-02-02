@@ -34,7 +34,7 @@
 }
 .f-5,
 .f-subheadline {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 
@@ -52,7 +52,7 @@
   .f-6-ns,
   .f-headline-ns { font-size: 6rem; }
   .f-5-ns,
-  .f-subheadline-ns { font-size: 5rem; }
+  .f-subheadline-ns { font-size: 4rem; }
   .f1-ns { font-size: 3rem; }
   .f2-ns { font-size: 2.25rem; }
   .f3-ns { font-size: 1.5rem; }
@@ -66,7 +66,7 @@
   .f-6-m,
   .f-headline-m { font-size: 6rem; }
   .f-5-m,
-  .f-subheadline-m { font-size: 5rem; }
+  .f-subheadline-m { font-size: 4rem; }
   .f1-m { font-size: 3rem; }
   .f2-m { font-size: 2.25rem; }
   .f3-m { font-size: 1.5rem; }
@@ -83,7 +83,7 @@
   }
   .f-5-l,
   .f-subheadline-l {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .f1-l { font-size: 3rem; }
   .f2-l { font-size: 2.25rem; }
@@ -92,4 +92,22 @@
   .f5-l { font-size: 1rem; }
   .f6-l { font-size: .875rem; }
   .f7-l { font-size: .75rem; }
+}
+
+@media (--breakpoint-extra-large) {
+  .f-6-xl,
+  .f-headline-xl {
+    font-size: 6rem;
+  }
+  .f-5-xl,
+  .f-subheadline-xl {
+    font-size: 4rem;
+  }
+  .f1-xl { font-size: 3rem; }
+  .f2-xl { font-size: 2.25rem; }
+  .f3-xl { font-size: 1.5rem; }
+  .f4-xl { font-size: 1.25rem; }
+  .f5-xl { font-size: 1rem; }
+  .f6-xl { font-size: .875rem; }
+  .f7-xl { font-size: .75rem; }
 }
