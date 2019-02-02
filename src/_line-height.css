@@ -11,24 +11,42 @@
 */
 
   .lh-solid { line-height: 1; }
+  .lh-tight { line-height: 1.125; }
   .lh-title { line-height: 1.25; }
   .lh-copy  { line-height: 1.5; }
 
 @media (--breakpoint-not-small) {
   .lh-solid-ns { line-height: 1; }
+  .lh-tight-ns { line-height: 1.125; }
   .lh-title-ns { line-height: 1.25; }
   .lh-copy-ns  { line-height: 1.5; }
 }
 
 @media (--breakpoint-medium) {
   .lh-solid-m { line-height: 1; }
+  .lh-tight-m { line-height: 1.125; }
   .lh-title-m { line-height: 1.25; }
   .lh-copy-m  { line-height: 1.5; }
 }
 
 @media (--breakpoint-large) {
   .lh-solid-l { line-height: 1; }
+  .lh-tight-l { line-height: 1.125; }
   .lh-title-l { line-height: 1.25; }
   .lh-copy-l  { line-height: 1.5; }
+}
+
+@media (--breakpoint-extra-large) {
+  .lh-solid-xl { line-height: 1; }
+  .lh-tight-xl { line-height: 1.125; }
+  .lh-title-xl { line-height: 1.25; }
+  .lh-copy-xl  { line-height: 1.5; }
+}
+
+@media (--breakpoint-extra-extra-large) {
+  .lh-solid-xxl { line-height: 1; }
+  .lh-tight-xxl { line-height: 1.125; }
+  .lh-title-xxl { line-height: 1.25; }
+  .lh-copy-xxl  { line-height: 1.5; }
 }
 
