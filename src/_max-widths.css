@@ -96,3 +96,36 @@
 
   .mw-none-l { max-width: none; }
 }
+
+@media (--breakpoint-extra-large) {
+  .mw-100-xl  { max-width: 100%; }
+
+  .mw1-xl  {  max-width: 1rem; }
+  .mw2-xl  {  max-width: 2rem; }
+  .mw3-xl  {  max-width: 4rem; }
+  .mw4-xl  {  max-width: 8rem; }
+  .mw5-xl  {  max-width: 16rem; }
+  .mw6-xl  {  max-width: 32rem; }
+  .mw7-xl  {  max-width: 48rem; }
+  .mw8-xl  {  max-width: 64rem; }
+  .mw9-xl  {  max-width: 96rem; }
+
+  .mw-none-xl { max-width: none; }
+}
+
+
+@media (--breakpoint-extra-extra-large) {
+  .mw-100-xxl  { max-width: 100%; }
+
+  .mw1-xxl  {  max-width: 1rem; }
+  .mw2-xxl  {  max-width: 2rem; }
+  .mw3-xxl  {  max-width: 4rem; }
+  .mw4-xxl  {  max-width: 8rem; }
+  .mw5-xxl  {  max-width: 16rem; }
+  .mw6-xxl  {  max-width: 32rem; }
+  .mw7-xxl  {  max-width: 48rem; }
+  .mw8-xxl  {  max-width: 64rem; }
+  .mw9-xxl  {  max-width: 96rem; }
+
+  .mw-none-xxl { max-width: none; }
+}

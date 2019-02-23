@@ -35,3 +35,17 @@
   .absolute-l  { position: absolute; }
   .fixed-l  { position: fixed; }
 }
+
+@media (--breakpoint-extra-large) {
+  .static-xl { position: static; }
+  .relative-xl  { position: relative; }
+  .absolute-xl  { position: absolute; }
+  .fixed-xl  { position: fixed; }
+}
+
+@media (--breakpoint-extra-extra-large) {
+  .static-xxl { position: static; }
+  .relative-xxl  { position: relative; }
+  .absolute-xxl  { position: absolute; }
+  .fixed-xxl  { position: fixed; }
+}

@@ -31,8 +31,8 @@
 */
 
 /* Media Queries */
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
-@custom-media --breakpoint-extra-large screen and (min-width: 90em);
+@custom-media --breakpoint-not-small screen and (min-width: 32em);
+@custom-media --breakpoint-medium screen and (min-width: 32em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+@custom-media --breakpoint-extra-large screen and (min-width: 80em);
 @custom-media --breakpoint-extra-extra-large screen and (min-width: 120em);
